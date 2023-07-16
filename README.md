@@ -47,3 +47,7 @@ For x86 version
 
 ![image](https://github.com/ErnestLontoc/PARCO-Project/assets/115440511/3e1d5beb-a304-4304-a4c6-7575ef9bda83)
 
+Comparative Analysis:
+  
+  Due to various factors, x86 execution times may be faster than the C version. First, x86 assembly code enables direct hardware control, allowing for more effective use of CPU resources. Second, manually optimized assembly code can use particular processor capabilities and instructions, improving performance for specified tasks. Finally, x86 assembly can achieve faster execution times compared to the more general-purpose and higher-level abstractions of the C version since it does not have the overhead of high-level language structures and is optimized for a particular hardware architecture.
+    
