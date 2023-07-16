@@ -23,8 +23,5 @@
     <CustomBuild Include="sdot.asm">
       <Filter>Source Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="SIMD.asm">
-      <Filter>Source Files</Filter>
-    </CustomBuild>
   </ItemGroup>
 </Project>

@@ -4,7 +4,6 @@
 #include<time.h>
 
 extern long long int sdotasm(int n, long long int* vec_A, long long int* vec_B);
-extern double sdotsimd(int n, long long int* vec_A, long long int* vec_B);
 
 long long int sdot(int n, long long int* vec_A, long long int* vec_B) {
 	long long int output = 0;
