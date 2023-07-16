@@ -1,0 +1,12 @@
+﻿  main.c
+C:\Users\Ernest\source\repos\CEPARCOProject\CEPARCOProject\main.c(27,10): warning C4477: 'scanf_s' : format string '%lld' requires an argument of type '__int64 *', but variadic argument 1 has type 'size_t *'
+C:\Users\Ernest\source\repos\CEPARCOProject\CEPARCOProject\main.c(27,10): message : consider using '%zd' in the format string
+C:\Users\Ernest\source\repos\CEPARCOProject\CEPARCOProject\main.c(37,9): warning C4477: 'printf' : format string '%lld' requires an argument of type '__int64', but variadic argument 1 has type 'size_t'
+C:\Users\Ernest\source\repos\CEPARCOProject\CEPARCOProject\main.c(37,9): message : consider using '%zd' in the format string
+C:\Users\Ernest\source\repos\CEPARCOProject\CEPARCOProject\main.c(40,9): warning C4477: 'printf' : format string '%lld' requires an argument of type '__int64', but variadic argument 2 has type 'size_t'
+C:\Users\Ernest\source\repos\CEPARCOProject\CEPARCOProject\main.c(40,9): message : consider using '%zd' in the format string
+C:\Users\Ernest\source\repos\CEPARCOProject\CEPARCOProject\main.c(44,9): warning C4477: 'printf' : format string '%lld' requires an argument of type '__int64', but variadic argument 1 has type 'size_t'
+C:\Users\Ernest\source\repos\CEPARCOProject\CEPARCOProject\main.c(44,9): message : consider using '%zd' in the format string
+C:\Users\Ernest\source\repos\CEPARCOProject\CEPARCOProject\main.c(47,9): warning C4477: 'printf' : format string '%lld' requires an argument of type '__int64', but variadic argument 2 has type 'size_t'
+C:\Users\Ernest\source\repos\CEPARCOProject\CEPARCOProject\main.c(47,9): message : consider using '%zd' in the format string
+C:\Users\Ernest\source\repos\CEPARCOProject\CEPARCOProject\main.c(20,25): warning C4101: 'sdotSIMD': unreferenced local variable

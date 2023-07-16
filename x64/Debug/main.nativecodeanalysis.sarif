@@ -1,0 +1,1321 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'vec_A'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 3,
+                  "endLine": 33,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 25,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "'vec_A' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<n')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "'vec_A' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'vec_A'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 3,
+                  "endLine": 33,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 25,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "'vec_A' is an array of 1 elements (8 bytes)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<n')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<n')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'vec_A[1]', (writable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'vec_B'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                },
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 3,
+                  "endLine": 34,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 25,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "'vec_B' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<n')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "'vec_B' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'vec_B'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                },
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 3,
+                  "endLine": 34,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 25,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "'vec_B' is an array of 1 elements (8 bytes)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<n')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<n')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'vec_B[1]', (writable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 32,
+                  "endLine": 41,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+                },
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 33,
+                  "endLine": 48,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32535.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Ernest/source/repos/CEPARCOProject/CEPARCOProject/main.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "613d5b313810f99a04fd0afe8d54223ab79d63df6a5ee358f1a2470ffd6d009f"
+          }
+        }
+      ]
+    }
+  ]
+}
